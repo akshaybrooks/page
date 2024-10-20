@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a {
+      text-decoration: none;
+    }
+    .navbar {
+      width: 100%;
+      height: 52px;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+    .nav_menu {
+      margin-left: auto;
+    }
+    .nav_title {
+      color: white;
+    }
+    .nav_menu a {
+      color: white;
+      font-size: 18px;
+      margin: 0 10px;
+    }
+    .content {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./apex.jpeg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .content_text p {
+      width: 100%;
+      height: 85vh;
+      color: white;
+      font-size: 50px;
+      font-weight: 500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .main_contentt {
+      width: 100%;
+      background-image: url(./minecraft.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 8% 20px;
+    }
+    .main_content-one,
+    .main_content-two {
+      display: flex;
+    }
+    .main_content-two {
+      padding-top: 10%;
+    }
+    .main_cards-one,
+    .main_cards-two {
+      width: 100%;
+      backdrop-filter: blur(2px);
+    }
+    .main_cards-one img,
+    .main_cards-two img {
+      width: 57%;
+      border-radius: 5px;
+    }
+    .main_cards-one img {
+      float: left;
+      margin-right: 10px;
+    }
+    .main_cards-two img {
+      float: right;
+      margin-left: 10px;
+    }
+    .main_content-one p,
+    .main_content-two p {
+      color: white;
+      font-size: 1.6vw;
+    }
+    .footer {
+      width: 100%;
+      height: 25vh;
+      background-color: #000000;
+    }
+    .footer_msg p {
+      color: white;
+      width: 100%;
+      height: 80px;
+      display: flex;
+      font-size: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer_copyright p {
+      color: rgba(255, 255, 255, 0.445);
+      margin-left: 20px;
+      font-size: 12px;
+    }
+  </style>
+  <body>
+    <div class="navbar">
+      <div class="nav_title">
+        <h1>Logo</h1>
+      </div>
+      <div class="nav_menu">
+        <a href="">Home</a>
+        <a href="">Games</a>
+        <a href="">News</a>
+        <a href="">More</a>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content_text">
+        <p>Hello Welcome To My Webpage</p>
+      </div>
+    </div>
+    <div class="main_contentt">
+      <div class="main_content-one">
+        <div class="main_cards-one">
+          <img src="./valorant.jpg" alt="" />
+          <p>
+            Valorant is a free-to-play first-person tactical hero shooter
+            developed and published by Riot Games.[3] The game's development
+            started in 2014 and was teased under the codename Project A in
+            October 2019. A closed beta period began with limited access on
+            April 7, 2020, followed by a release on June 2, 2020. It was
+            originally designed for Windows only, but support for the Xbox
+            Series X/S and PlayStation 5 was added in June 2024, albeit without
+            crossplay between PC and console clients. Valorant takes inspiration
+            from the Counter-Strike series, borrowing several mechanics such as
+            the buy menu, spray patterns, and inaccuracy while moving.
+          </p>
+        </div>
+      </div>
+      <div class="main_content-two">
+        <div class="main_cards-two">
+          <img src="./apexlegents.png" alt="" />
+          <p>
+            Apex Legends is a free-to-play battle royale-hero shooter game
+            developed by Respawn Entertainment and published by Electronic Arts.
+            It was released for PlayStation 4, Windows, and Xbox One in February
+            2019, for Nintendo Switch in March 2021, and for PlayStation 5 and
+            Xbox Series X/S in March 2022. A mobile version of the game designed
+            for touchscreens titled Apex Legends Mobile was released in May 2022
+            on Android and iOS, but was discontinued in May 1, 2023. The game
+            supports cross-platform play, excluding the aforementioned mobile
+            platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer_msg">
+        <p>Thank You!</p>
+      </div>
+      <div class="footer_copyright">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </body>
+</html>
